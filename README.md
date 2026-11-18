@@ -21,7 +21,7 @@ Python 3.12. API keys are read from the environment (`ANTHROPIC_API_KEY`, `GEMIN
 - Seeded benchmark: `python benchmark/benchmark.py`
 - Real-agent experiments: see the scripts in `experiments/` (`--max-sessions` runs a partial check first).
 - Experiment F: install [τ²-bench](https://github.com/sierra-research/tau2-bench), then `bash tau2/run_F.sh` and `python tau2/analyze_tau2.py`.
-- Experiment H (no API calls): `python tau2/replay_third_party.py` replays the trajectories published in the τ²-bench repository through the frozen gates.
+- Experiment H (no API calls): `python tau2/replay_third_party.py` replays published τ²-bench airline trajectories of 13 models through the frozen gates; `python tau2/replay_scope_of_missed.py` classifies the writes that passed. Four models ship with the τ²-bench repository (`data/tau2/results/final`); nine are leaderboard submissions downloadable from `https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/<submission>/trajectories/<file>` into `published_trajectories/`.
 
 ## License
 

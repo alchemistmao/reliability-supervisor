@@ -1,0 +1,11 @@
+('new', 'cancel_insured_reason_unverifiable') 17
+('new', 'cancel_ok_24h') 9
+('new', 'cancel_ok_business') 24
+('new', 'intent') 189
+('new', 'send_certificate') 3
+('old', 'cancel_insured_reason_unverifiable') 13
+('old', 'cancel_ok_24h') 2
+('old', 'cancel_ok_business') 11
+('old', 'intent') 195
+('old', 'send_certificate') 10
+('old', 'update_reservation_passengers') 3
